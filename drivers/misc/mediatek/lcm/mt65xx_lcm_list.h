@@ -16,6 +16,11 @@
 
 
 #include <lcm_drv.h>
+/* prize added by zoggn/hadenix, add lcm, 20201221-start */
+extern LCM_DRIVER ft8719_fhdpluse2280_dsi_vdo_y97_lcm_drv;
+extern LCM_DRIVER nt36672_fhdp2280_dsi_vdo_y97_lcm_drv;
+extern LCM_DRIVER nt36670a_fhdp2280_dsi_vdo_y97_lcm_drv;
+/* prize added by zoggn/hadenix, add lcm, 20201221-end */
 extern LCM_DRIVER ft8719_fhdpluse2340_dsi_vdo_auo_lcm_drv;
 /* prize added by chenjiaxi, add lcm, 20190111-start */
 extern LCM_DRIVER ili9881c_hd_dsi_vdo_cmi_ata_lcm_drv;

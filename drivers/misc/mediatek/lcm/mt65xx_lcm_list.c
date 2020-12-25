@@ -34,6 +34,17 @@ LCM_DSI_MODE_CON lcm_dsi_mode;
 #endif
 
 LCM_DRIVER *lcm_driver_list[] = {
+//prize add by zoggn/hadenix 20201221 start
+#if defined(FT8719_FHDPLUSE2280_DSI_VDO_Y97)
+	&ft8719_fhdpluse2280_dsi_vdo_y97_lcm_drv,
+#endif
+#if defined(NT36672_FHDP2280_DSI_VDO_Y97)
+	&nt36672_fhdp2280_dsi_vdo_y97_lcm_drv,
+#endif
+#if defined(NT36670A_FHDP2280_DSI_VDO_Y97)
+	&nt36670a_fhdp2280_dsi_vdo_y97_lcm_drv,
+#endif
+//prize add by zoggn/hadenix 20201221 end
 //prize add by lipengpeng 20191203 start
 #if defined(FT8719_FHDPLUSE2340_DSI_VDO_AUO)
 	&ft8719_fhdpluse2340_dsi_vdo_auo_lcm_drv,
